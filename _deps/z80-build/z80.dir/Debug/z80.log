@@ -1,0 +1,40 @@
+﻿  Building Custom Rule D:/adi/src/z80/spectrum-emulator/_deps/z80-src/CMakeLists.txt
+  z80.c
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(163,49): warning C4244: 'function': conversion from 'const uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(800,24): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(888,46): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(893,46): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(906,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(911,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(916,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(921,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(930,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(940,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(965,27): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(972,47): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(974,45): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(980,40): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(983,45): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(988,47): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(990,45): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(996,40): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(999,45): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1002,29): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1004,27): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1007,29): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1009,27): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1012,29): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1014,27): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1017,28): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1018,33): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1333,34): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1341,34): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1349,34): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1357,34): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1365,34): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1373,34): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1465,34): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1473,34): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1481,34): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+D:\adi\src\z80\spectrum-emulator\_deps\z80-src\src\z80.c(1489,33): warning C4244: 'function': conversion from 'uint16_t' to 'const uint8_t', possible loss of data
+  z80.vcxproj -> D:\adi\src\z80\spectrum-emulator\_deps\z80-build\Debug\z80.lib

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\d2db1b2a45d9ddd5fad929a599728648\z80-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\8f7e4bb72f999561cb5be2a6ce53c02b\z80-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\124598f859393781a9ffd7a57b9f4ed8\z80-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\z80-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEBE993A-BD30-30A5-A596-F3D6CED9B7FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

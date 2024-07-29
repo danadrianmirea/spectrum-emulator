@@ -1,3 +1,8 @@
+
+#set(SDL2_PATH "D:/SDL2-2.30.5")
+set(SDL2_INCLUDE_DIR D:/SDL2-2.30.5/include)
+set(SDL2_LIBRARY D:/SDL2-2.30.5/lib/x64)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../cmake/sdl2)
 find_package(SDL2 REQUIRED)
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}" ${SDL2_INCLUDE_DIRS})

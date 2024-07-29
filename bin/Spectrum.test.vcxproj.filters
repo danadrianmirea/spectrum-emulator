@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\adi\src\z80\spectrum-emulator\src\test-runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\adi\src\z80\spectrum-emulator\src\keyboard.test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\adi\src\z80\spectrum-emulator\bin\Keyboard.dir\$(Configuration)\keyboard.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{5D128CD8-B662-3760-B2AD-11C6BC31591D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8E62C68-C268-3F6C-BA80-412AD72ED121}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

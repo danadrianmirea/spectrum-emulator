@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\z80-subbuild\CMakeFiles\124598f859393781a9ffd7a57b9f4ed8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEBE993A-BD30-30A5-A596-F3D6CED9B7FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

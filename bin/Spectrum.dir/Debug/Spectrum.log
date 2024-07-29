@@ -1,0 +1,26 @@
+﻿  Building Custom Rule D:/adi/src/z80/spectrum-emulator/src/CMakeLists.txt
+  main.c
+  spectrum.c
+D:\adi\src\z80\spectrum-emulator\src\spectrum.c(103,36): warning C4244: '=': conversion from 'const int64_t' to 'int', possible loss of data
+D:\adi\src\z80\spectrum-emulator\src\spectrum.c(141,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\adi\src\z80\spectrum-emulator\src\spectrum.c(276,45): warning C4244: '+=': conversion from 'const int64_t' to 'int', possible loss of data
+D:\adi\src\z80\spectrum-emulator\src\spectrum.c(269,41): warning C4244: 'initializing': conversion from 'int64_t' to 'const int', possible loss of data
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function fail
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function cleanup
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function loop
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateTexture referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_LockTexture referenced in function blit
+main.obj : error LNK2019: unresolved external symbol SDL_UnlockTexture referenced in function blit
+main.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function blit
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function blit
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function cleanup
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function cleanup
+main.obj : error LNK2019: unresolved external symbol SDL_GetPerformanceCounter referenced in function loop
+main.obj : error LNK2019: unresolved external symbol SDL_GetPerformanceFrequency referenced in function loop
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function cleanup
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\adi\src\z80\spectrum-emulator\bin\Debug\Spectrum.exe : fatal error LNK1120: 17 unresolved externals

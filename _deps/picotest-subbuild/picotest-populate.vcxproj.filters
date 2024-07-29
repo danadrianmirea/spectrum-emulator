@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\d2ba3a6a61529fa11be46ce1afb4b2ab\picotest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\ebcf0914c32068f3f92f45f0a8085f16\picotest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\99b94a906e980e4e2efa155eaef9edc6\picotest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-subbuild\CMakeFiles\picotest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{07CAEBED-3DB6-316B-8D13-19470EE395AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

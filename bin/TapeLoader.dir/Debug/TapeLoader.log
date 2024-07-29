@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/adi/src/z80/spectrum-emulator/src/CMakeLists.txt
+  tape-loader.c
+  tap-format.c
+D:\adi\src\z80\spectrum-emulator\src\tape-formats\tap-format.c(104,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tzx-format.c
+D:\adi\src\z80\spectrum-emulator\src\tape-formats\tzx-format.c(102,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  TapeLoader.vcxproj -> D:\adi\src\z80\spectrum-emulator\bin\TapeLoader.dir\Debug\TapeLoader.lib

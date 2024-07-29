@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=C:/Program Files/CMake/bin/cmake.exe;-P;D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/tmp/picotest-populate-gitclone.cmake
+source_dir=D:/adi/src/z80/spectrum-emulator/_deps/picotest-src
+work_dir=D:/adi/src/z80/spectrum-emulator/_deps
+repository=https://github.com/colinbarry/picotest
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+

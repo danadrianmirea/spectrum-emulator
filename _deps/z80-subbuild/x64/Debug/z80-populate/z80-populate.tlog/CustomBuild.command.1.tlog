@@ -1,0 +1,150 @@
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/tmp/z80-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/tmp/z80-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-UPDATE.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\z80-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/tmp/z80-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\z80-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-BUILD.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\z80-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-INSTALL.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\z80-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\D2DB1B2A45D9DDD5FAD929A599728648\Z80-POPULATE-TEST.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\z80-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\8F7E4BB72F999561CB5BE2A6CE53C02B\Z80-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/CMakeFiles/Debug/z80-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate-prefix/src/z80-populate-stamp/Debug/z80-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\124598F859393781A9FFD7A57B9F4ED8\Z80-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild -BD:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild --check-stamp-file D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

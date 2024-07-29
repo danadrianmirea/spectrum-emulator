@@ -1,0 +1,16 @@
+D:/adi/src/z80/spectrum-emulator/CMakeFiles/RUN_TESTS.dir
+D:/adi/src/z80/spectrum-emulator/CMakeFiles/ALL_BUILD.dir
+D:/adi/src/z80/spectrum-emulator/CMakeFiles/ZERO_CHECK.dir
+D:/adi/src/z80/spectrum-emulator/_deps/z80-build/CMakeFiles/z80.dir
+D:/adi/src/z80/spectrum-emulator/_deps/z80-build/CMakeFiles/RUN_TESTS.dir
+D:/adi/src/z80/spectrum-emulator/_deps/z80-build/CMakeFiles/ALL_BUILD.dir
+D:/adi/src/z80/spectrum-emulator/_deps/picotest-build/CMakeFiles/picotest.dir
+D:/adi/src/z80/spectrum-emulator/_deps/picotest-build/CMakeFiles/RUN_TESTS.dir
+D:/adi/src/z80/spectrum-emulator/_deps/picotest-build/CMakeFiles/ALL_BUILD.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/Keyboard.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/Display.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/Memory.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/TapeLoader.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/Spectrum.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/Spectrum.test.dir
+D:/adi/src/z80/spectrum-emulator/bin/CMakeFiles/RUN_TESTS.dir

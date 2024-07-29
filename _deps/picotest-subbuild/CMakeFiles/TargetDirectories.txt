@@ -1,0 +1,3 @@
+D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/picotest-populate.dir
+D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/ZERO_CHECK.dir

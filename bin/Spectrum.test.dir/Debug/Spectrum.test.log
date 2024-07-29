@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/adi/src/z80/spectrum-emulator/src/CMakeLists.txt
+  test-runner.c
+  keyboard.test.c
+  Generating Code...
+  Spectrum.test.vcxproj -> D:\adi\src\z80\spectrum-emulator\bin\Debug\Spectrum.test.exe

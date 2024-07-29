@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/adi/src/z80/spectrum-emulator/src/CMakeLists.txt
+  keyboard.c
+D:\adi\src\z80\spectrum-emulator\src\keyboard.c(19,11): warning C4013: 'memset' undefined; assuming extern returning int
+  Keyboard.vcxproj -> D:\adi\src\z80\spectrum-emulator\bin\Keyboard.dir\Debug\Keyboard.lib

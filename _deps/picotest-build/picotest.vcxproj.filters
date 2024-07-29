@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\adi\src\z80\spectrum-emulator\_deps\picotest-src\include\picotest\picotest.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{755EB601-D385-394E-9A56-7F72BE1BA34E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

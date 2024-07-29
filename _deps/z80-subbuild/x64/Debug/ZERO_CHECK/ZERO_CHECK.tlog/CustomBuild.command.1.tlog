@@ -1,0 +1,10 @@
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\Z80-SUBBUILD\CMAKEFILES\124598F859393781A9FFD7A57B9F4ED8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild -BD:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/adi/src/z80/spectrum-emulator/_deps/z80-subbuild/z80-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

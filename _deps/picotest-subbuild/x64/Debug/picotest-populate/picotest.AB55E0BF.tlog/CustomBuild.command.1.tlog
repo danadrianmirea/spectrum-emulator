@@ -1,0 +1,150 @@
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/tmp/picotest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/tmp/picotest-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-UPDATE.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\picotest-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/tmp/picotest-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\picotest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-BUILD.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\picotest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-INSTALL.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\picotest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\D2BA3A6A61529FA11BE46CE1AFB4B2AB\PICOTEST-POPULATE-TEST.RULE
+setlocal
+cd D:\adi\src\z80\spectrum-emulator\_deps\picotest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\EBCF0914C32068F3F92F45F0A8085F16\PICOTEST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/Debug/picotest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/picotest-populate-prefix/src/picotest-populate-stamp/Debug/picotest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKEFILES\99B94A906E980E4E2EFA155EAEF9EDC6\PICOTEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADI\SRC\Z80\SPECTRUM-EMULATOR\_DEPS\PICOTEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild -BD:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild --check-stamp-file D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

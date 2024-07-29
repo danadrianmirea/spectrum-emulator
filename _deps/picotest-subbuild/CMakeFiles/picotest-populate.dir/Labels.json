@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/picotest-populate"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/99b94a906e980e4e2efa155eaef9edc6/picotest-populate.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/ebcf0914c32068f3f92f45f0a8085f16/picotest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-build.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-download.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-install.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-test.rule"
+		},
+		{
+			"file" : "D:/adi/src/z80/spectrum-emulator/_deps/picotest-subbuild/CMakeFiles/d2ba3a6a61529fa11be46ce1afb4b2ab/picotest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotest-populate"
+		],
+		"name" : "picotest-populate"
+	}
+}
